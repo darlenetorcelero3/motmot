@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kayla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Header></Header>
+        <h1>OUR KULITAN SA CALL:</h1>
+    </Header>
+    <section class="video-container">
+        <iframe src="IMG/1st song.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/bday.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/pick.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/damot.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/happy.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/kiss.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/simp.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/bato.mp4" allowfullscreen></iframe>
+        <iframe src="IMG/bato1.mp4" allowfullscreen></iframe>
+        <button class="btn"><a href="motmot.html">CLICK HERE</button></a>
+    </section>
+    <script>
+        window.onload = function() {
+            const images = document.querySelectorAll('.fade-in');
+            images.forEach((img, index) => {
+                setTimeout(() => {
+                    img.style.opacity = 1; 
+                }, index * 1000); 
+            });
+        };
+    </script>
+</body>
+</html>

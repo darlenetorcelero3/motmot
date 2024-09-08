@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kayla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Header>
+        <h1>OUR MEMORIES:</h1>
+    </Header>
+    <div class="contents">
+        <img src="IMG/memo1.jpg" alt="Image 1" class="fade-in">
+        <img src="IMG/memo2.jpg" alt="Image 2" class="fade-in">
+        <img src="IMG/memo3.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo4.jpg" alt="Image 1" class="fade-in">
+        <img src="IMG/memo5.jpg" alt="Image 2" class="fade-in">
+        <img src="IMG/memo6.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo7.png" alt="Image 3" class="fade-in">
+        <img src="IMG/memo8.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo9.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo10.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo11.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo12.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo13.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo14.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo15.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo16.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo17.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo18.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo19.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo20.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo21.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo22.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo23.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo25.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo26.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo27.jpg" alt="Image 3" class="fade-in">
+        <img src="IMG/memo28.jpg" alt="Image 3" class="fade-in">
+    </div>
+    <Button class="btn"> <a href="video.html">CLICK ME</Button></a>
+    
+    <script>
+        window.onload = function() {
+            const images = document.querySelectorAll('.fade-in');
+            images.forEach((img, index) => {
+                setTimeout(() => {
+                    img.style.opacity = 1; 
+                }, index * 1000); 
+            });
+        };
+    </script>
+</body>
+</html>
